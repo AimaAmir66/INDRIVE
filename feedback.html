@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback - SITP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Give Your Feedback</h1></header>
+  <div class="container">
+    <h3>Rate Your Experience:</h3>
+    <div>
+      <input type="radio" name="rating" value="5"> ★★★★★
+      <input type="radio" name="rating" value="4"> ★★★★
+      <input type="radio" name="rating" value="3"> ★★★
+      <input type="radio" name="rating" value="2"> ★★
+      <input type="radio" name="rating" value="1"> ★
+    </div>
+    <textarea id="review" placeholder="Write your review here"></textarea>
+    <button onclick="submitFeedback()">Submit Feedback</button>
+  </div>
+</body>
+<script src="js/script.js"></script>
+</html>
